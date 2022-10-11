@@ -1,0 +1,12 @@
+import React from 'react';
+import { params } from './params';
+
+export default function MyCustom() {
+  return (
+    <img
+      style={{ width: '16px', height: '16px', marginRight: '10px' }}
+      src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC70lEQVRYR81XzXnaQBB9Iy7xKaQDUkFkXEBwBYYKQm44F5MKgisIvgT5ZFyBcQXGBaDIFQR3IJ/gwr58uwJ9Eki76ySH6MCBb3bnzc++eSN4xcfzky7IM0BaEDQBhNvjCYgU4BJUM7lO7n2vFZch+2ETb4LvEHQB0U49PqYgZlirrzJNUtsBKwAO2iMILvwd77syQMYSxZd1ICoBmKiPGg+FFHtEbTVJsNqcVmXjAAC/hCEYPHhFTT4ZtyIf3AiZQtSp/EiSom0JQBZ58MvpnLzEWo13EW37ZAiRb1Yg5BJrdVzMRBnAoJ04oyE/SxRPqxxx0O5D5MaRjUQmi+OdTQ4gazhHBOCjTOKOzQHP23NAPjoycSlRPDLV0z/eqQd6MlnMrAC8ssAUK/VelyIDcH6iU/rJ2UjcnEqUzO0Awg7EvCDXdyuTRT8DMDhJIXjrOgFL/XdnDVsCd867wFQm8TvxP2CuNKjtPeCZzeySngbgl/48xPoyZBzS+OmOPre4Fa+uLd3IFEpGcr24Kv6dZZI3Tg4p3/Uo9Hn7lY+eS4hkrEaGEGm9IvKdaaJLwD84+M+O/AcAXlsC4gVCLUDKfCDogBJ6Pee8ofnk14TaKThFoKb702y/FuYlqKAPSN8Nho/uZ7g3+XyL7zUhySsXETm53wXIMSF7Nip2sp7LeYGeD8mOeJFo0awfRjo9UTz0dWKl50F7DJGLPZvCMDLKt7E8aBqP4eMCWFkC3dTrTSsfx4bMKgWJVrWq5xrBdSA40KM5uDugZ7IsSPJa1XECObJJ60qmrlNY5JNE8W6hyRRRDqCuFJmB5v0xVpv7umVjK+fPAOjeyZ0UPDxjpcJaUWpKYYikMbeSiGZBQQoyG0YiIYgmNBvWfnyGqK5VlpczEcydCtnVgQXKxVp1vBaTUkl0HSFDN6XWIMkoXK9mRgFXfX7L6VFjDKLrDcQMLMyw2gz/ajndR7zVj1r5tLKab1cyvaKZnoBebOYu6V689zeZOHwlqbTm4AAAAABJRU5ErkJggg=='
+      alt=''
+    />
+  );
+}
